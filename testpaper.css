@@ -1,0 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+a{
+    cursor: pointer;
+}
+#total_time{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
+#time_section{
+    font-size: 30px;
+}
