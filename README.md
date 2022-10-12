@@ -1,6 +1,6 @@
 # TestPaper
 This is a combination of teacher panel and students result. I have used HTML, CSS, Bootstrap, JS and JQuery to develop it.
-Since I have not used any backend services in the project, so both the tqcher panel as well as the students' test happen at the same page.
+Since I have not used any backend services in the project, so both the teacher panel as well as the students' test happen at the same page.
 It has been developed in following manner:
 1. Teacher Panel- Here the teacher can write down the questions, provide answers to it and the time given to complete the test.
 2. Preview- Here the teacher can preview the question paper and if he/she wants to make any change, choose modify question paper. If ready, choose start paper.
