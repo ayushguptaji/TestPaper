@@ -17,6 +17,10 @@ function add_option(t) {
 </div>`);
 }
 
+//delete option
+function delete_option(t) {
+  $(t.parentNode.children[0].lastElementChild).remove();
+}
 
 //calculate Total Marks
 function calc_total_marks() {
@@ -33,6 +37,7 @@ $(document).ready(function () {
   //adding total marks calculation
   $("#all_question").on("keyup",".marks",function(){
     calc_total_marks()});
+  
   //remove question
   $("#all_question").on("click",".remove_question",function(event){
     $(event.target).parents(".each_question").remove();
@@ -180,18 +185,19 @@ $(document).ready(function () {
 
   //start test
   $("#start_test").click(function () {
+    
     //scroll window to top
     window.scrollTo(0, 0);
-
+    
     //enable input
     $("input").prop("disabled", false);
-
+    
     //remove modify and start test
     $("#modify_start_test").remove();
-
+    
     //show submit test
     $("#submit_test").css("display", "");
-
+    
     //timer
     let h,
       m,
